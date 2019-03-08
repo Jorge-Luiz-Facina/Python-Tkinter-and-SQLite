@@ -1,19 +1,14 @@
 import sqlite3
-connection = sqlite3.connect('DataBase\infos.db')
+
+connection = sqlite3.connect('infos.db')
 cursor = connection.cursor()
 
 TABLE_NAME = "info"
 COLUMN_NAME = "name"
 COLUMN_DESCRIPTION = "description"
 
-class BankController:
 
-    def __init__(self):
-        global connection
-        global cursor
-        connection = sqlite3.connect('infos.db')
-        cursor = connection.cursor()
-        self.create_database()
+class BankController:
 
     def create_database(self):
         cursor.execute("CREATE TABLE IF NOT EXISTS " + TABLE_NAME + "(" + COLUMN_NAME + " text, " + COLUMN_DESCRIPTION + " text)")
