@@ -18,8 +18,3 @@
 - [SQLite - sqlite3](https://docs.python.org/3/library/sqlite3.html)
 
 - [Unit testing - unittest](https://docs.python.org/3/library/sqlite3.html)
-
-## Author
-
-| [<img src="https://avatars.githubusercontent.com/MainDuel?v=3&s=115"><br><sub>@MainDuel</sub>](https://github.com/MainDuel) |
-| :---: |
